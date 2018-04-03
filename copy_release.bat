@@ -9,13 +9,13 @@ FixTool .\CONTemplate.vcxproj
 FixTool .\DLLTemplate.vcxproj
 
 DEL ".\Release\Visual C++ Project\APPTemplate.zip"
-7z a -tzip ".\Release\Visual C++ Project\APPTemplate.zip" .\APPTemplate\__TemplateIcon.ico .\APPTemplate.vcxproj .\APPTemplate\APPTemplate.vcxproj.filters .\APPTemplate\main.cc .\APPTemplate\MyTemplate.vstemplate
+7za a -tzip ".\Release\Visual C++ Project\APPTemplate.zip" .\APPTemplate\__TemplateIcon.ico .\APPTemplate.vcxproj .\APPTemplate\APPTemplate.vcxproj.filters .\APPTemplate\main.cc .\APPTemplate\MyTemplate.vstemplate
 
 DEL ".\Release\Visual C++ Project\CONTemplate.zip"
-7z a -tzip ".\Release\Visual C++ Project\CONTemplate.zip" .\CONTemplate\__TemplateIcon.ico .\CONTemplate.vcxproj .\CONTemplate\CONTemplate.vcxproj.filters .\CONTemplate\main.cc .\CONTemplate\MyTemplate.vstemplate
+7za a -tzip ".\Release\Visual C++ Project\CONTemplate.zip" .\CONTemplate\__TemplateIcon.ico .\CONTemplate.vcxproj .\CONTemplate\CONTemplate.vcxproj.filters .\CONTemplate\main.cc .\CONTemplate\MyTemplate.vstemplate
 
 DEL ".\Release\Visual C++ Project\DLLTemplate.zip"
-7z a -tzip ".\Release\Visual C++ Project\DLLTemplate.zip" .\DLLTemplate\__TemplateIcon.ico .\DLLTemplate.vcxproj .\DLLTemplate\DLLTemplate.vcxproj.filters .\DLLTemplate\main.cc .\DLLTemplate\MyTemplate.vstemplate
+7za a -tzip ".\Release\Visual C++ Project\DLLTemplate.zip" .\DLLTemplate\__TemplateIcon.ico .\DLLTemplate.vcxproj .\DLLTemplate\DLLTemplate.vcxproj.filters .\DLLTemplate\main.cc .\DLLTemplate\MyTemplate.vstemplate
 
 DEL .\APPTemplate.vcxproj
 DEL .\CONTemplate.vcxproj
