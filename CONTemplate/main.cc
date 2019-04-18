@@ -10,15 +10,6 @@ void Initialize()
     setlocale(LC_CTYPE, "");
 
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
-    CONSOLE_FONT_INFOEX cfi;
-    cfi.cbSize = sizeof(cfi);
-    cfi.nFont = 0;
-    cfi.dwFontSize.X = 8;
-    cfi.dwFontSize.Y = 16;
-    cfi.FontFamily = 54;
-    cfi.FontWeight = 400;
-    wcscpy_s(cfi.FaceName, L"ÐÂËÎÌå");
-    SetCurrentConsoleFontEx(out, false, &cfi);
     SetConsoleScreenBufferSize(out, { 120, 3000 });
     SMALL_RECT sr{ 0, 0, 120, 30 };
     SetConsoleWindowInfo(out, FALSE, &sr);
